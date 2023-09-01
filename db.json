@@ -26,7 +26,7 @@
     },
     {
       "name": "Dart Vader",
-      "imageUrl": "/assets/img/mini darth.png",
+      "imageUrl": "../assets/img/mini darth.png",
       "price": "200",
       "id": "04d73519-1a01-411e-b84c-fda146bc8813"
     }
