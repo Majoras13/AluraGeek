@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>AluraGeek | Editar producto</title>
+        <!-- aqui va los links de tipografia y favicon -->
+        <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png">
+        <link rel="stylesheet" href="../assets/css/global.css">
+        <link rel="stylesheet" href="../assets/css/products-form.css">
+        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+      <header class="container">
+        <nav>
+            <div class="logo-search">
+                <div>
+                  <a href="index.html"><img src="../assets/img/favicon.png"/></a>
+                </div>
+                <input type="search" placeholder="¿Qué necesitas?"/>
+            </div>
+            <a href="login.html"><button type="submit">Iniciar sesion</button></a>
+        </nav>
+      </header>
+        <main>
+            <section class="product-add">
+              <div class="product-add_title">Editar producto</div>
+              <div data-img class="img-box"></div>
+              <form class="form-box" data-form>
+                <label>Url de la imagen</label>
+                <input
+                  class="product-add_input__url"
+                  type="text"
+                  placeholder="URL de imagen"
+                  required
+                  data-url
+                />
+                <label>Nombre del producto</label>
+                <input
+                  class="product-add_input__name"
+                  type="text"
+                  placeholder="Nombre del producto"
+                  required
+                  data-name
+                />
+                <labe>Precio del producto</labe>
+                <input
+                  class="product-add_input__price"
+                  type="text"
+                  placeholder="Precio del producto"
+                  required
+                  data-price
+                />
+                <div class="btn_box">
+                  <button type="submit" class="edit_btn">
+                  Terminar edicion
+                  </button>
+                  <button type="submit" class="delete_btn" data-delete>
+                  Eliminar producto
+                  </button>
+                </div>
+              </form>
+            </section>
+          </main>
+          <footer class="container">
+            <div class="footer-info">
+                <div>
+                  <a href="index.html"><img src="../assets/img/favicon.png"/></a>
+                </div>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Terminos legales</a></li>
+                    <li><a href="#">Clientes frecuentes</a></li>
+                    <li><a href="#">Nuestras tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anuncie aquí</a></li>
+                </ul>
+                <form>
+                    <h1>Hable con nosotros</h1>
+                    <input type="text" placeholder="Nombre">
+                    <textarea placeholder="Escriba su mensaje" cols="5" rows="5"></textarea>
+                    <button type="submit" >Enviar sugerencias</button>
+                </form>
+            </div>
+            <div class="footer-copy">
+                <p>Copyrigth AluraGeek | Mario Romero 2023</p>
+            </div>
+        </footer>
+        <script type="module" src="../contollers/update-product-controller.js"></script>
+    </body>
+</html>

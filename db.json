@@ -1,0 +1,34 @@
+{
+  "producto": [
+    {
+      "name": "Alura",
+      "price": "1",
+      "imageUrl": "../assets/img/favicon.png",
+      "id": 1
+    },
+    {
+      "name": "funko stranger things",
+      "price": "250",
+      "imageUrl": "https://www.gamestore.com.kw/web/image/product.template/12130/image_256",
+      "id": "a5542549-9838-44b5-9718-e32aadceca5d"
+    },
+    {
+      "name": "Alura Latam",
+      "price": "123321",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "id": "15138b2c-0781-40c5-9dd9-46bc305d6067"
+    },
+    {
+      "name": "ONE",
+      "price": "1000",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
+      "id": "e9c04a7c-cf09-4d01-a08f-a7b2f27d4b71"
+    },
+    {
+      "name": "Dart Vader",
+      "imageUrl": "/assets/img/mini darth.png",
+      "price": "200",
+      "id": "04d73519-1a01-411e-b84c-fda146bc8813"
+    }
+  ]
+}

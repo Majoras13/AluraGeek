@@ -1,0 +1,14 @@
+:root{
+    /* --nombre-variable: valor, fallback; */
+    --color-base:#ffffff;
+    --color-primario: #eaf2fd;
+    --color-secundario: #2a7ae4;
+    --color-terciario: #464646;
+    --color-gray: #efefef;
+    --color-placeholder: #d4d4d4;
+
+    --font-family: "Raleway", sans-serif;
+
+    --color-aler:#f44336;
+
+}

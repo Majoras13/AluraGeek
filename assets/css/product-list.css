@@ -1,0 +1,40 @@
+.product-watch{
+    display: none;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-section{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3rem 0;
+}
+
+.title a{
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+.button-add{
+    font-weight: 600;
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: solid 1px var(--color-secundario);
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.button-add:hover{
+    color: var(--color-secundario);
+    background-color: var(--color-base);
+
+}
